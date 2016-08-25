@@ -95,9 +95,7 @@ public final class CustomFileUtil {
 //	}
 
 	public static String getRootPath() {
-
-		return "G:\\ws_cloud-backup\\temp";
-
+		return "G:" + File.separator + "javaDemoFiles" + File.separator;
 	}
 
 
